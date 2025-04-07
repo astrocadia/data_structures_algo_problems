@@ -1,4 +1,7 @@
 
+# implement an algorithm to determine if a string has all unique characters.
+# what if you cannot use additional data structures?
+
 test_strings = ['abcdefg', 'abcdefgg', 'aabcdefg', 'a bc']
 
 def is_unique(test_string: str) -> bool:

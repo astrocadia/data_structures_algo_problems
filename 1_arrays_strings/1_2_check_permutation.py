@@ -18,7 +18,7 @@ def check_string_permutation_list(str_1, str_2):
         if letters[ord(str_2[i])] == 0:
             return False
         letters[ord(str_2[i])] -= 1
-        
+
     return True
 
 
